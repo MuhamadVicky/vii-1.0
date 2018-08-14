@@ -1,0 +1,130 @@
+#menu-btn {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 85px;
+    cursor: pointer;
+    transition:all .1s ease-in-out;
+    background: url('images/menuv.png') no-repeat center;
+    background-size: 30px;
+    }
+
+#menu-btn:hover {
+	transition:all .1s ease-in-out;
+	background:rgba(60, 60, 173,0.5) url('images/menuv.png') no-repeat center;
+	background-size: 30px;
+}
+
+#popup{
+    top:0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    background:rgba(255,255,255,1);}
+
+.nav-header{
+    position: relative;
+    width: auto;
+    height: 69vh;
+    margin: 145px 145px 16vh 115px;
+}
+
+li a{
+    padding: 13px 16px;
+    font-size: 18px;
+    }
+
+li a:hover {
+    transition:all .1s ease-in-out;
+    border:solid 2px #fff;}
+
+.menuTitle1{
+    position: absolute;
+    font-family: "roboto";
+    font-size: 120px; /* needs to be changed ( Fixed) */
+    left: 8%;
+    top: 3%;
+    letter-spacing: 5px;
+    height:13vh;
+    width:auto;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+}
+
+
+.menuTitle1_link,.menuTitle1_link:after{
+        transition: all .4s cubic-bezier(.165,.84,.44,1);
+    -moz-transition: all .4s cubic-bezier(.165,.84,.44,1);
+    -webkit-transition: all .4s cubic-bezier(.165,.84,.44,1);
+    -o-transition: all .4s cubic-bezier(.165,.84,.44,1);
+}
+
+
+
+.menuTitle1_link::after{
+    width: calc(100% + 6px);
+    height: 3px;
+    background: linear-gradient(-90deg,#1090ef,#647553 33.33333%,#876d4a 66.66667%,#cc8b25);
+    bottom: 0;
+    content: " ";
+    display: block;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    transform: scaleX(0);
+}
+
+.menuTitle1_link:hover::after{
+    transform: scaleX(1);
+}
+
+.menuTitle2 {
+    position: absolute;
+    font-family: "roboto";
+    font-size: 5.5vw;
+    left: 36%;
+    top: 40%;
+    letter-spacing: 5px;
+    height:12vh;
+    width:18vw;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+}
+
+.hover2:hover{
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+    top:35%;
+    height:1vh;
+    background-color:cornflowerblue;
+}
+
+.menuTitle3 {
+    position: absolute;
+    font-family: "roboto";
+    font-size: 5.5vw;
+    left: 67%;
+    top: 74%;
+    letter-spacing: 5px;
+    height:12vh;
+    width:14vw;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+}
+
+.hover3:hover{
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+    left:72%;
+    top:77%;
+    height:1vh;
+    background-color:darkviolet;
+
+}
+
+span > a {
+    color:black;
+}

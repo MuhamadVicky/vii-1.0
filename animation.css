@@ -1,0 +1,61 @@
+.fadeout{
+    animation: fadein 1s;
+}
+
+
+@-webkit-keyframes fadein {
+	from {
+		-webkit-transform:translate3d(0,100%,0);
+		transform:translate3d(0,100%,0);
+		opacity:0;
+	}
+	100% {
+		-webkit-transform:none;
+		transform:none;
+		opacity:1;
+	}
+}
+@keyframes fadein {
+	from {
+		-webkit-transform:translate3d(0,100%,0);
+		transform:translate3d(0,100%,0);
+		opacity:0;
+	}
+	100% {
+		-webkit-transform:none;
+		transform:none;
+		opacity:1;
+	}
+}
+
+
+.right{
+    animation: right 1s;
+}
+
+
+@-webkit-keyframes right {
+	from {
+		-webkit-transform:translate3d(0,100%,0);
+		transform:translate3d(100%,0,0);
+		opacity:0;
+	}
+	100% {
+		-webkit-transform:none;
+		transform:none;
+		opacity:1;
+	}
+}
+@keyframes right {
+	from {
+		-webkit-transform:translate3d(0,100%,0);
+		transform:translate3d(100%,0,0);
+		opacity:0;
+	}
+	100% {
+		-webkit-transform:none;
+		transform:none;
+		opacity:1;
+	}
+}
+

@@ -1,0 +1,252 @@
+#content{
+    position:absolute;
+    width:100%;
+    height:100%;
+    }
+
+#wrapper-text {
+    position:relative;
+    width: 100%;
+    height: calc(100% - 54px);
+    }
+
+/* for page title */
+#containerTitle {
+    position: absolute;
+    width: 40vw;
+    height: auto;
+    bottom: 100px;
+    left: 116px;
+    display: block;
+    overflow: hidden;
+    }
+
+#pageTitle {
+   font-family: 'roboto';
+    color: ghostwhite;
+    font-size: 3vw;
+    letter-spacing: 13px;
+    line-height: 86px;
+    text-transform: uppercase;
+    display: block;
+}
+
+#pageTitle1 {
+    font-family: "roboto";
+    font-size: .8vw;
+    color: ghostwhite;
+    letter-spacing: 2px;
+    display: block;
+    line-height: 1vw;
+}
+
+#pageTitle2 {
+    font-family: "roboto";
+    font-size: .8vw;
+    color: ghostwhite;
+    letter-spacing: 1px;
+    line-height: 29px;
+    display: block;
+    }
+
+#quote{
+    position: relative;
+    font-family: "roboto";
+    font-size: .7vw;
+    color: ghostwhite;
+    line-height: 3vw;
+    text-align: right;
+    letter-spacing: 1px;}
+
+/* Favourite things Page */
+#container-favourite{
+    width: 100%;
+    height: 20px;
+    }
+
+#text-favourite{
+    font-family: "roboto";
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1vw;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    letter-spacing: 6px;
+    position: absolute;
+    color: #fff;
+    }
+
+.text-space{
+    padding: 150px 0;}
+
+.page-width{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.title-fav{
+    font-family: 'Nothing You Could Do', cursive;
+    position: relative;
+    text-align: center;
+    font-size:100px;
+    top: 5%;
+}
+
+.ilike{
+    padding:125px 0;
+    overflow: hidden;
+}
+
+.ilike2{
+     padding: 125px 0;
+     overflow: hidden;
+}
+
+.ilike .page-width{
+    display:flex;
+    position: relative;
+    align-items: center;
+    padding-left:55px;
+    padding-right: 55px;
+}
+
+.ilike2 .page-width-reverse{
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.ilike-background{
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    right: 78%;
+    top: 0%;
+    background: #0984e3;
+}
+
+.image1{
+    z-index:100;
+    padding: 62px;
+}
+
+.ilike1-text {
+    font-family: 'roboto';
+    padding: 100px;
+    font-size: 1.1em;
+    line-height: 25px;
+    text-align: left;
+    z-index: 200;
+    letter-spacing: 1px;
+}
+
+.ilike2-text{
+    position: absolute;
+    width: 100%;
+    bottom: 45px;
+    left: -111px;
+    text-align: right;
+    font-family: 'roboto';
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.image2{
+    z-index:10;
+    padding:62px;
+    }
+
+
+.ilike-background2{
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    left: 82.5%;
+    top: 0%;
+    background: #0984e3;
+}
+
+
+.my-foo{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 4%;
+    padding-bottom: 0;
+}
+
+.social-wrap{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.experiment1{
+    width: 180px;
+    height: 180px;
+    background: url(images/github-logo.png) no-repeat center;
+    background-size: 255px;
+    image-rendering: -webkit-optimize-contrast;
+    }
+
+.experiment2{
+    width: 180px;
+    height: 180px;
+    background: url(images/steamlogo1.png) no-repeat center;
+    background-size: 127px;
+    image-rendering: -webkit-optimize-contrast;
+    }
+
+.foo-text{
+    font-family: 'roboto';
+    padding: 33px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+ /* for about html */
+
+.content-about{
+    top:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.about-left{
+    background-color:rgba(255,255,255,.8);
+    width:80%;
+    height:100%;
+}
+
+.about-right{
+
+}
+
+
+
+/* style for mobile
+
+.ilike-background {
+    width: 105%;
+    height: 60%;
+    position: absolute;
+    right: 51%;
+    top: -3%;
+    background: #0984e3;
+    z-index: -1;
+
+.ilike .page-width {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+*/
+
+
