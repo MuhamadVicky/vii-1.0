@@ -221,7 +221,7 @@
     overflow:hidden;
 }
 
-.content-in-about{
+.wrapper-about{
     position: relative;
     top: 0;
     height: 100%;
@@ -231,17 +231,29 @@
     margin-left: 10%;
 }
 
-.main-content-about{
+.main-about{
     position: relative;
-    /* left: 50%; */
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.main-content-about{
+    position: absolute;
     width: 50%;
     height: auto;
+    top: 15%;
 }
 
+.content{
+    font-family: 'arial';
+    font-size: 18px;
+    line-height: 32px;
+
+}
 .main-content-img{
     position: relative;
     left: 80%;
-    /* right: -90%; */
+    top: 12%;
     display: inline-block;
     width: 416px;
     height: 416px;

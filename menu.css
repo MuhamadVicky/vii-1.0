@@ -45,7 +45,7 @@ li a:hover {
     position: absolute;
     font-family: "roboto";
     font-size: 120px; /* needs to be changed ( Fixed) */
-    left: 8%;
+    left: 10%;
     top: 3%;
     letter-spacing: 5px;
     height:13vh;
@@ -54,32 +54,15 @@ li a:hover {
     transition-duration: 0.75s;
 }
 
+.hover1:hover{
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+    left:3%;
+    height:1vh;
+    background-color:green;
 
-.menuTitle1_link,.menuTitle1_link:after{
-        transition: all .4s cubic-bezier(.165,.84,.44,1);
-    -moz-transition: all .4s cubic-bezier(.165,.84,.44,1);
-    -webkit-transition: all .4s cubic-bezier(.165,.84,.44,1);
-    -o-transition: all .4s cubic-bezier(.165,.84,.44,1);
 }
 
-
-
-.menuTitle1_link::after{
-    width: calc(100% + 6px);
-    height: 3px;
-    background: linear-gradient(-90deg,#1090ef,#647553 33.33333%,#876d4a 66.66667%,#cc8b25);
-    bottom: 0;
-    content: " ";
-    display: block;
-    left: 0;
-    top: 100%;
-    position: absolute;
-    transform: scaleX(0);
-}
-
-.menuTitle1_link:hover::after{
-    transform: scaleX(1);
-}
 
 .menuTitle2 {
     position: absolute;
@@ -128,3 +111,32 @@ li a:hover {
 span > a {
     color:black;
 }
+
+
+/**\
+.menuTitle1_link,.menuTitle1_link:after{
+        transition: all .4s cubic-bezier(.165,.84,.44,1);
+    -moz-transition: all .4s cubic-bezier(.165,.84,.44,1);
+    -webkit-transition: all .4s cubic-bezier(.165,.84,.44,1);
+    -o-transition: all .4s cubic-bezier(.165,.84,.44,1);
+}
+
+
+
+.menuTitle1_link::after{
+    width: calc(100% + 6px);
+    height: 3px;
+    background: linear-gradient(-90deg,#1090ef,#647553 33.33333%,#876d4a 66.66667%,#cc8b25);
+    bottom: 0;
+    content: " ";
+    display: block;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    transform: scaleX(0);
+}
+
+.menuTitle1_link:hover::after{
+    transform: scaleX(1);
+}
+*/
