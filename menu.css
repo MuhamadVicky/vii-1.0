@@ -44,7 +44,7 @@ li a:hover {
 .menuTitle1{
     position: absolute;
     font-family: "roboto";
-    font-size: 120px; /* needs to be changed ( Fixed) */
+    font-size: 5.5vw; /* needs to be changed ( Fixed) */
     left: 10%;
     top: 3%;
     letter-spacing: 5px;
